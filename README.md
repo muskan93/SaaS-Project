@@ -39,7 +39,6 @@ cd SaaS-Project
 
 ### 3️⃣ Install Dependencies
 ```bash
-cd SaaS-Project
 yarn install
 ```
 
