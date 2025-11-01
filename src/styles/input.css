@@ -1,0 +1,12 @@
+.input {
+    width: 100%;
+    border: var(--border-main);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    height: 3rem;
+}
+
+.input-group {
+    display: flex;
+    gap: 0.5rem;
+}

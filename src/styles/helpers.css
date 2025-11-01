@@ -1,0 +1,103 @@
+/* Palette */
+.error {
+    background-color: var(--error-bg);
+    color: var(--error);
+}
+
+.success {
+    background-color: var(--success-bg);
+    color: var(--success);
+}
+
+/* Utils */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-success {
+    color: var(--success);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* Padding */
+.p-0 {
+    padding: 0;
+}
+
+.py-16 {
+    padding: 0 16px;
+}
+
+/* Margin */
+.mt-8 {
+    margin-top: 0.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 0.25rem;
+}
+
+.mb-8 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-12 {
+    margin-bottom: 0.75rem;
+}
+
+.mb-16 {
+    margin-bottom: 1rem;
+}
+
+.mb-32 {
+    margin-bottom: 2rem;
+}
+
+.mx-16 {
+    margin: 1rem 0;
+}
+
+.my-24 {
+    margin: 1.5rem 0;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.gap-16 {
+    gap: 1rem
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+

@@ -1,0 +1,13 @@
+/* Chip */
+.chip {
+    border-radius: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.chip--primary {
+    background-color: var(--primary);
+    color: var(--white);
+}

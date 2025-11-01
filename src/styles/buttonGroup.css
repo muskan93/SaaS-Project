@@ -1,0 +1,39 @@
+/* Button Group */
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-background);
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+
+.button-group--transparent {
+    background-color: unset;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+
+.button-group .button {
+    border: none;
+    padding: 0.5rem 0;
+    width: 100%;
+    font-size: 0.875rem;
+} 
+
+.button-group--transparent .button {
+    background-color: unset;
+    gap: 0.5rem;
+    padding: 0;
+    border: var(--border-main);
+    padding: 0.75rem 0;
+}
+
+.button-group .button:hover, .button-group .button:focus {
+    box-shadow: none;
+}
+
+.button-group .button:not(.button--readonly) {
+    box-shadow: var(--light-button-shadow);
+}

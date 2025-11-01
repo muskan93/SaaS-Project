@@ -1,0 +1,7 @@
+/* Base Card Component */
+.card {
+    background: var(--paper);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    border: var(--border-main);
+}

@@ -1,0 +1,49 @@
+/* Dialog Box */
+.dialog-box {
+    margin: 0 auto;
+    border: var(--border-main);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media screen and (min-width: 48rem) {
+    .dialog-box {
+        max-width: var(--dialog-max-width);
+    }
+}
+
+.dialog-box-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog-box-icon svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.dialog-box-button-wrapper {
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .dialog-box-button-wrapper {
+        flex-direction: column;
+    }
+}
+
+/* Order Description Table */
+.order-table {
+    width: 100%;
+    background: var(--main-background);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: var(--border-main);
+}

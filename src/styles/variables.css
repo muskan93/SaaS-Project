@@ -1,0 +1,39 @@
+/* tablet-breakpoint: 48rem; */
+/* desktop-breakpoint: 64rem; */
+/* large-desktop-breakpoint: 90rem; */
+
+
+/* Variables */
+:root {
+    /* Palette */
+    --primary: #155dfc;
+    --secondary: #1e2939;
+    --success: #00a63e;
+    --error: #e7000b;
+    --white: #ffffff;
+    --disabled: #4a5565;
+
+    /* Text */
+    --text-primary: #101828;
+    --text-secondary: #4a5565;
+
+    /* Backgrounds */
+    --primary-background: #155dfc;
+    --main-background: #fbf9fa;
+    --paper: #ffffff;
+    --secondary-background: #ebe6e7;
+
+    --success-bg: #dcfce7;
+    --error-bg: #ffe2e2;
+
+    /* Borders */
+    --border-main: 1px solid #ebe6e7;
+    --border-primary: 1px solid var(--primary);
+
+    /* Widths */
+    --dialog-max-width: 45rem;
+
+    /* Shadows */
+    --button-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --light-button-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.1)
+}

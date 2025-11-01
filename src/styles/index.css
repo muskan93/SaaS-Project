@@ -1,0 +1,24 @@
+/* Globals */
+.container {
+    background-color: var(--main-background);
+    min-height: 100vh;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+@media screen and (min-width: 90rem) {
+    .content {
+        max-width: 96rem !important;
+    }
+}
+
+.section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+

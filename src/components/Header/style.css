@@ -1,0 +1,9 @@
+.header {
+    background-color: white;
+    border-bottom: var(--border-main);
+}
+
+.header .content {
+    padding: 1rem;
+}
+
